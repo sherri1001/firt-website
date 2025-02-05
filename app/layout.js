@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="zh">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <nav className="fixed top-0 left-0 right-0 bg-green-600 text-white p-4 z-50">
+        <nav className="fixed top-0 left-0 right-0 bg-gray-800 text-white p-4 z-50">
           <div className="max-w-6xl mx-auto flex justify-between items-center">
             <Link href="/" className="text-xl font-bold hover:opacity-50 transition-opacity">
               我的網站
